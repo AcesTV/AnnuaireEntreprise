@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "caeea27a-f12d-4c40-af21-1001b6ed73a7": {
+      "ProjectGuid": "caeea27a-f12d-4c40-af21-1001b6ed73a7",
+      "DisplayName": "AnnuaireEntreprise",
+      "ColorIndex": 0
+    },
+    "dcff3449-3abc-44e1-9fa8-f95cc64d097d": {
+      "ProjectGuid": "dcff3449-3abc-44e1-9fa8-f95cc64d097d",
+      "DisplayName": "AnnuaireEntreprise",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

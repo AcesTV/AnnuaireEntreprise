@@ -1,0 +1,47 @@
+﻿<Window x:Class="AnnuaireEntreprise.Pages.SalarieViews.ShowSalarie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnnuaireEntreprise.Pages.SalarieViews"
+        xmlns:fa="clr-namespace:FontAwesome.WPF;assembly=FontAwesome.WPF"
+        mc:Ignorable="d"
+        Title="ShowSalarie" Height="350" Width="400" MinHeight="350" MinWidth="400">
+
+    <Grid>
+        <Grid Margin="0,10,0,70" HorizontalAlignment="Left" Width="380" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical" Width="40" HorizontalAlignment="Left" Margin="0,0,0,76" VerticalAlignment="Center">
+                <fa:ImageAwesome Icon="User" Width="30"></fa:ImageAwesome>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,76" HorizontalAlignment="Right" Width="380">
+
+                <TextBlock x:Name="Nom" Text="" Height="30" Width="300" Margin="0,7,0,0" FontSize="25"/>
+                <TextBlock x:Name="Prenom" Text="" Height="30" Width="300" FontSize="25"/>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Orientation="Vertical" Margin="10,91,10,58">
+            <StackPanel Orientation="Horizontal">
+                <fa:ImageAwesome Icon="Mobile" Width="22" HorizontalAlignment="Left" Height="27"></fa:ImageAwesome>
+                <TextBlock x:Name="TelMobile" Height="30" FontSize="20" Margin="20,0,0,0"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <fa:ImageAwesome Icon="Phone" Width="22" HorizontalAlignment="Left"></fa:ImageAwesome>
+                <TextBlock x:Name="TelFixe" Height="30" FontSize="20" Margin="20,0,0,0"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <fa:ImageAwesome Icon="Envelope" Width="22" HorizontalAlignment="Left"></fa:ImageAwesome>
+                <TextBlock x:Name="Email"  Height="30" FontSize="20" Margin="20,0,0,0"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <fa:ImageAwesome Icon="Home" Width="22" HorizontalAlignment="Left"></fa:ImageAwesome>
+                <TextBlock x:Name="Ville" Height="30" FontSize="20" Margin="20,0,0,0"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <fa:ImageAwesome Icon="Gear" Width="22" HorizontalAlignment="Left"></fa:ImageAwesome>
+                <TextBlock x:Name="Service" Height="30" FontSize="20" Margin="20,0,0,0"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+        <Button Content="Ok" Margin="0,0,28,48" Click="Button_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Height="30"/>
+    </Grid>
+</Window>
