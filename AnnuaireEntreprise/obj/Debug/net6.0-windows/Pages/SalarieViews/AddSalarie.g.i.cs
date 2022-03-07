@@ -9,9 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AnnuaireEntreprise.Pages;
 using AnnuaireEntreprise.Pages.SalarieViews;
-using FontAwesome.WPF;
 using System;
 using System.Diagnostics;
 using System.Windows;

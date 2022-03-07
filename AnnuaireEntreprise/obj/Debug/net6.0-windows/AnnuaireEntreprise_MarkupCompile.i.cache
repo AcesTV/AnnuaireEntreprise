@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\nicol\source\repos\AnnuaireEntreprise\AnnuaireEntreprise\obj\Debug\net6.0-windows\
+D:\CESI\AnnuaireEntreprise-main - Copie\AnnuaireEntreprise\obj\Debug\net6.0-windows\
 AnnuaireEntreprise
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\nicol\source\repos\AnnuaireEntreprise\AnnuaireEntreprise\App.xaml
+D:\CESI\AnnuaireEntreprise-main - Copie\AnnuaireEntreprise\App.xaml
 10385766940
 
 221784748260
-2151518414390
+215-1103207849
 MainWindow.xaml;Pages\AdminCheck.xaml;Pages\AdminPanel.xaml;Pages\SalarieViews\AddSalarie.xaml;Pages\SalarieViews\EditSalarie.xaml;Pages\SalarieViews\ShowSalarie.xaml;Pages\ServiceViews\AddService.xaml;Pages\ServiceViews\EditService.xaml;Pages\SiteViews\AddSite.xaml;Pages\SiteViews\EditSite.xaml;
 
 False

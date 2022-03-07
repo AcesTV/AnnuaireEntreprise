@@ -1894,20 +1894,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nicol\\.nuget\\packages\\": {}
+    "C:\\Users\\Nicolas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\AnnuaireEntreprise\\AnnuaireEntreprise\\AnnuaireEntreprise.csproj",
+      "projectUniqueName": "D:\\CESI\\AnnuaireEntreprise-main - Copie\\AnnuaireEntreprise\\AnnuaireEntreprise.csproj",
       "projectName": "AnnuaireEntreprise",
-      "projectPath": "C:\\Users\\nicol\\source\\repos\\AnnuaireEntreprise\\AnnuaireEntreprise\\AnnuaireEntreprise.csproj",
-      "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicol\\source\\repos\\AnnuaireEntreprise\\AnnuaireEntreprise\\obj\\",
+      "projectPath": "D:\\CESI\\AnnuaireEntreprise-main - Copie\\AnnuaireEntreprise\\AnnuaireEntreprise.csproj",
+      "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+      "outputPath": "D:\\CESI\\AnnuaireEntreprise-main - Copie\\AnnuaireEntreprise\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows7.0"

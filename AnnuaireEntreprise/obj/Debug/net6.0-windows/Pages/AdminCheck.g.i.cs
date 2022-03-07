@@ -9,9 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using AnnuaireEntreprise;
 using AnnuaireEntreprise.Pages;
-using FontAwesome.WPF;
 using System;
 using System.Diagnostics;
 using System.Windows;

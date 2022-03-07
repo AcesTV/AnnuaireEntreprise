@@ -9,7 +9,7 @@
     <Window.CommandBindings>
         <CommandBinding Command="{x:Static local:AdminCheck.enter}" Executed="Button_Click"/>
     </Window.CommandBindings>
-    <Grid>
+    <Grid  Background="AliceBlue">
         <StackPanel Orientation="Vertical">
             <TextBlock Text="MOT DE PASSE :" HorizontalAlignment="Center" Margin="0,15,0,0"/>
             <PasswordBox x:Name="passwordAdmin" Margin="0,25,0,0" Width="225"/>

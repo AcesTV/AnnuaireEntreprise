@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AnnuaireEntreprise.Pages.SalarieViews"
         mc:Ignorable="d"
         Title="AddSalarie" Height="450" Width="400" MinHeight="450" MinWidth="400" MaxHeight="450" MaxWidth="400">
-    <Grid>
+    <Grid Background="AliceBlue">
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="300">
                 <TextBlock Text="Nom: " Margin="0,10,0,10"/>
@@ -38,8 +38,8 @@
             </StackPanel>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,329,50,21" Width="158">
-            <Button Content="Valider" x:Name="btn_Valider" Height="30" Click="btn_Valider_Click" Width="60"/>
-            <Button Content="Annuler" x:Name="btn_Annuler" Height="30" Click="btn_Annuler_Click" Margin="20,0,0,0" Width="60"/>
+            <Button Background="FloralWhite" Content="Valider" x:Name="btn_Valider" Height="30" Click="btn_Valider_Click" Padding="5,1,5,1" Grid.IsSharedSizeScope="True"/>
+            <Button Background="FloralWhite" Content="Annuler" x:Name="btn_Annuler" Height="30" Click="btn_Annuler_Click" Margin="20,0,0,0" Padding="5,1,5,1" Grid.IsSharedSizeScope="True"/>
         </StackPanel>
     </Grid>
 </Window>
